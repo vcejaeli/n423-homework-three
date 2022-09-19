@@ -48,7 +48,7 @@ function initSite() {
             // console.log(persons);
             $('#names').html('')
             for(var x=0;x<persons.length;x++){
-            $('#names').append(persons[x]['fName'] + " " + persons[x]['lName']  + " <br/> ")
+            $('#names').append(persons[x]['fName'] + " " + persons[x]['lName']  + " <br/> "   + " " + persons[x]['age'] + "<br/>")
 }
 
         } else {
