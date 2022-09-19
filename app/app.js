@@ -66,8 +66,6 @@ initSite();
 });
 
 
-
-
 // $("submit").click((e) => {
 //     e.preventDefault();
 
