@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/student-at-library.jpg);
   /* Add some content at the bottom of the video/page */
 }
 .main #myVideo {
