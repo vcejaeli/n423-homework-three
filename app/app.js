@@ -10,8 +10,8 @@ function initListeners() {
         let ln = $("#lastName").val();
 
         let age = $("#age").val();
-        let phoneNum = $("#age").val();
-        let classes = $("#age").val();
+        let phoneNum = $("#phoneNum").val();
+        let classes = $("#classes").val();
 
         console.log(fn + " " + ln + age + phoneNum + classes);
 
@@ -48,7 +48,7 @@ function initSite() {
             // console.log(persons);
             $('#names').html('')
             for(var x=0;x<persons.length;x++){
-            $('#names').append(persons[x]['fName'] + " " + persons[x]['lName']  + " <br/> "   + " " + persons[x]['age'] + "<br/>")
+            $('#names').append(persons[x]['fName'] + " " + persons[x]['lName']  + " <br/> "   + " " + persons[x]['age'] + "<br/>"    + " " + persons[x]['phoneNum'] + "<br/>" + " " + persons[x]['classes'] + "<br/>")
 }
 
         } else {
